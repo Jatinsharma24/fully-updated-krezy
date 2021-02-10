@@ -17,6 +17,8 @@ module.exports = {
         `` +
           "**★Fun:**\n`Avatar, Coinflip, Howgay, Meme, Rate, 8ball, Dicksize, Ascii, Hack, Randomnumber, ytsearch, gsearch, creatememe, question, kiss, slap, waifu, relationship, sad, enemoji (enlarge emoji), td(thruth or dare), invert, thanks, welcome, love, shy, poke, care, sorry, wiki, cat, dog`" +
           "\n\n" +
+          "**★Image:**\n`Tinder, trigger, say, buzz, miss, rip, kill, invert, kill, invert, textinvert, stonk, unstonk, water, eject, nuke, drip, clyde, eternity, trash, simp, captcha, scroll, fact, beautiful, communist, magik, gun, jail, hearts, gay, error, glitch, hitler, grab, comment, like, r(Other Interaction commands)`" +
+          "\n\n" +
           "**★Moderation:**\n`Clear, Mute, Unmute, Tempmute, Kick, Ban, Unban, Tempban, Warn, Warnings, addemoji`" +
           "\n\n" +
           "**★Information:**\n`Help, botInfo, Weather, whois, Serverinfo, Ping, poll, shout(announce)`" +
