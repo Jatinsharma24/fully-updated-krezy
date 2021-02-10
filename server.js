@@ -23,7 +23,7 @@ client.on("message", async message => {
     message.member = await message.guild.fetchMember(message);
 
   if (message.content.match(new RegExp(`^<@!?${client.user.id}>`))) {
-    return message.channel.send(`Bot Prefix : ${Prefix}`);
+    return message.channel.send(`My Prefix : ${Prefix}`);
   }
 });
 
@@ -73,9 +73,9 @@ client.on("message", async message => {
   if (!command) return;
 
   if (command) {
-    if (!message.guild.me.hasPermission("ADMINISTRATOR"))
+    if (!message.guild.me.hasPermission("CONNECT"))
       return message.channel.send(
-        "I Don't Have Enough Permission To Use This Or Any Of My Commands | Require : Administrator"
+        "I Don't Have Enough Permission To Use This Or Any Of My Commands | Require : SEND EMBEDDED AND CONNECT"
       );
     command.run(client, message, args);
   }
