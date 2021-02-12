@@ -15,8 +15,8 @@ module.exports = {
       .setTitle(`${client.user.username} Commands!`)
       .setDescription(
         `` +
-          "\n\n" +
-          "**★Fun:**\n`Avatar, Coinflip, Howgay, Meme, Rate, 8ball, Dicksize, Ascii, Hack, Randomnumber, ytsearch, gsearch, creatememe, question, kiss, slap, waifu, relationship, sad, enemoji (enlarge emoji), td(thruth or dare), invert, thanks, welcome, love, shy, poke, care, sorry, wiki, cat, dog`" +
+          "\n\n\n\n" +
+          "\n\n\n**★Fun:**\n`Avatar, Coinflip, Howgay, Meme, Rate, 8ball, Dicksize, Ascii, Hack, Randomnumber, ytsearch, gsearch, creatememe, question, kiss, slap, waifu, relationship, sad, enemoji (enlarge emoji), td(thruth or dare), invert, thanks, welcome, love, shy, poke, care, sorry, wiki, cat, dog`" +
           "\n\n\n" +
           "**★Image:**\n`Tinder, trigger, say, buzz, miss, rip, kill, invert, kill, invert, textinvert, stonk, unstonk, water, eject, nuke, drip, clyde, eternity, trash, simp, captcha, scroll, fact, beautiful, communist, magik, gun, jail, hearts, gay, error, glitch, hitler, grab, comment, like, r(Other Interaction commands)`" +
           "\n\n\n" +
@@ -36,10 +36,11 @@ module.exports = {
           "\n\n" +
           "**★Ticket system: ** \n`$ticket-setup #channel \nfor setting up ticket channel\n$close for closing a ticket`" +
           "\n\n" +
-          "**★RAINBOW 
+          "**★RAINBOW roles:** \n`$addrole(role name) `" +
+          "\n\n" +
           "**★Others: ** \n`1. W$help for welcome setup!, Leave$help for exit setup!\nNote: welcome and leave are beta commands\n\n2. Invite\n\n3. Report(In case of any problem with bot)`" +
           "\n\n\n" +
-          "**★Note: **\n`Moderation, Reaction role, ticket system requires higher permissions`"
+          "**★Note★: **\n`Moderation, Reaction role, Rainbow role,ticket system requires higher permissions`"
       )
       .setFooter(`by Krezy`)
       .setTimestamp();
