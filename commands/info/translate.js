@@ -1,12 +1,10 @@
-
 const { MessageEmbed } = require("discord.js");
 
 const translate = require("@k3rn31p4nic/google-translate-api");
 
 module.exports = {
-
   name: "translate",
-  
+
   aliases: ["translate"],
 
   category: "main",
@@ -14,25 +12,20 @@ module.exports = {
   description: "google translate",
 
   run: async (client, message, args) => {
+    const result = await translate(args.slice(1).join(" "), { to: args[0] });
 
-        const result = await translate(args.slice(1).join(" "), { to: args[0] });
+    const embed = new MessageEmbed()
 
-        const embed = new MessageEmbed()
+      .setDescription(result.text)
 
-            .setDescription(result.text)
+      .setColor("RANDOM")
 
-            .setColor("RANDOM")
+      .setFooter(message.author.username)
 
-            .setFooter(message.author.username)
+      .setTimestamp()
 
-            .setTimestamp()
+      .setTitle("Google Translate");
 
-            .setTitle("Google Translate");
-
-        message.channel.send(embed);
-
-    }
-
+    message.channel.send(embed);
+  }
 };
-
-n
