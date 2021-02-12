@@ -5,6 +5,8 @@ const imdb = require("imdb-api");
 module.exports = {
 
 name: "imdb",
+  
+  aliases: ["imdb"],
 
   description: "Get the information about series and movie",
 
