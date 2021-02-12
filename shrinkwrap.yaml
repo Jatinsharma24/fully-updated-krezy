@@ -1,4 +1,5 @@
 dependencies:
+  '@evrimfeyyaz/covid-19-api': 2.0.5
   canvacord: 5.0.8
   discord.js: 12.5.1
   express: 4.17.1
@@ -35,6 +36,14 @@ packages:
       node: '>= 6'
     resolution:
       integrity: sha512-ZfFsbgEXW71Rw/6EtBdrP5VxBJy4dthyC0tpQKGKmYFImlmmrykO14Za+BiIVduwjte0jXEBlhSKf0MWbFp9Eg==
+  /@evrimfeyyaz/covid-19-api/2.0.5:
+    dependencies:
+      csv-parse: 4.15.1
+      idb: 5.0.8
+      tslib: 1.14.1
+    dev: false
+    resolution:
+      integrity: sha512-u9zUE17jgLULtxH+FZSyjmE7Nuy9QUddxwAQzHlCxPu2VzdNYnoCQwsilFxl18HTzwd6gAsiPSwuQ0ZgwFHvCA==
   /@ungap/url-search-params/0.2.2:
     dev: false
     resolution:
@@ -292,6 +301,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
+  /csv-parse/4.15.1:
+    dev: false
+    resolution:
+      integrity: sha512-TXIvRtNp0fqMJbk3yPR35bQIDzMH4khDwduElzE7Fl1wgnl25mnWYLSLqd/wS5GsDoX1rWtysivEYMNsz5jKwQ==
   /dashdash/1.14.1:
     dependencies:
       assert-plus: 1.0.0
@@ -758,6 +771,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==
+  /idb/5.0.8:
+    dev: false
+    resolution:
+      integrity: sha512-K9xInRkVbT3ZsYimD2KVj6B4E93IBvOjEQTryu99WuuN7G+7x3SzA79+yubbX0QRN9V64Gi+L+ulG5QYTVydOg==
   /ieee754/1.2.1:
     dev: false
     resolution:
@@ -1709,6 +1726,10 @@ packages:
       node: '>=0.8'
     resolution:
       integrity: sha512-nlLsUzgm1kfLXSXfRZMc1KLAugd4hqJHDTvc2hDIwS3mZAfMEuMbc03SujMF+GEcpaX/qboeycw6iO8JwVv2+g==
+  /tslib/1.14.1:
+    dev: false
+    resolution:
+      integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
   /tunnel-agent/0.6.0:
     dependencies:
       safe-buffer: 5.2.1
@@ -1875,6 +1896,7 @@ registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
+  '@evrimfeyyaz/covid-19-api': ^2.0.5
   canvacord: ^5.0.8
   discord.js: ^12.5.1
   express: ^4.17.1

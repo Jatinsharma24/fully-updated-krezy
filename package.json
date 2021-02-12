@@ -22,7 +22,8 @@
     "weather-js": "^2.0.0",
     "imdb-api": "^4.4.0",
     "srod-v2": "^1.0.1",
-    "canvacord": "^5.0.8"
+    "canvacord": "^5.0.8",
+    "@evrimfeyyaz/covid-19-api": "^2.0.5"
   },
   "engines": {
     "node": "12.x"
