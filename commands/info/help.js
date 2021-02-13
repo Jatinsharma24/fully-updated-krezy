@@ -22,7 +22,7 @@ module.exports = {
           "\n\n\n" +
           "**★Moderation:**\n`Clear, Mute, Unmute, Tempmute, Kick, Ban, Unban, Tempban, Warn, Warnings, addemoji`" +
           "\n\n\n" +
-          "**★Information:**\n`Help, botInfo, Weather, whois, Serverinfo, Ping, poll, shout(announce)`" +
+          "**★Information:**\n`Help, botInfo, Weather, whois, Serverinfo, Ping, poll, shout(announce), translate, snipe, `" +
           "\n\n\n" +
           "**★Music Commands:** \n`M$help for Music Commands`" +
           "\n\n" +
