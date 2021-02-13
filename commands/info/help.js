@@ -16,13 +16,13 @@ module.exports = {
       .setDescription(
         `` +
           "\n\n\n\n" +
-          "\n\n\n**★Fun:**\n`Avatar, Coinflip, Howgay, Meme, Rate, 8ball, Dicksize, Ascii, Hack, Randomnumber, ytsearch, gsearch, creatememe, question, kiss, slap, waifu, relationship, sad, enemoji (enlarge emoji), td(thruth or dare), invert, thanks, welcome, love, shy, poke, care, sorry, wiki, cat, dog`" +
+          "\n\n\n**★Fun:**\n`Avatar, Coinflip, Howgay, Meme, Rate, 8ball, Dicksize, Ascii, Hack, Randomnumber, ytsearch, gsearch, creatememe, question, kiss, slap, waifu, relationship, sad, enemoji (enlarge emoji), td(thruth or dare), invert, thanks, welcome, love, shy, poke, care, sorry, wiki, cat, dog, imdb, meeting`" +
           "\n\n\n" +
           "**★Image:**\n`Tinder, trigger, say, buzz, miss, rip, kill, invert, kill, invert, textinvert, stonk, unstonk, water, eject, nuke, drip, clyde, eternity, trash, simp, captcha, scroll, fact, beautiful, communist, magik, gun, jail, hearts, gay, error, glitch, hitler, grab, comment, like, r(Other Interaction commands)`" +
           "\n\n\n" +
-          "**★Moderation:**\n`Clear, Mute, Unmute, Tempmute, Kick, Ban, Unban, Tempban, Warn, Warnings, addemoji`" +
+          "**★Moderation:**\n`Clear, Mute, Unmute, Tempmute, Kick, Ban, Unban, Tempban, Warn, Warnings, addemoji, lock, slowdown`" +
           "\n\n\n" +
-          "**★Information:**\n`Help, botInfo, Weather, whois, Serverinfo, Ping, poll, shout(announce), translate, snipe, `" +
+          "**★Information:**\n`Help, botInfo, Weather, whois, Serverinfo, Ping, poll, shout(announce), translate, snipe`" +
           "\n\n\n" +
           "**★Music Commands:** \n`M$help for Music Commands`" +
           "\n\n" +
